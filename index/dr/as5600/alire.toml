@@ -1,6 +1,6 @@
 name = "as5600"
 description = "as5600 driver for stm32f407"
-version = "0.1.0-dev"
+version = "1.1.0"
 
 authors = ["Célian Aldehuelo-Mateos, Vladislav Kupin"]
 maintainers = ["Vladislav Kupin <vlad.kupin@proton.me>"]
@@ -10,7 +10,7 @@ website = "https://github.com/evolutek"
 tags = ["embedded", "stm32", "stellarhal", "evolutek"]
 
 [[depends-on]]
-gnat_arm_elf = "^12"
+gnat_arm_elf = "12.2.1"
 
 [origin]
 commit = "59bae7d7383ab9c093f68b70b0f05d7dfbb02464"
