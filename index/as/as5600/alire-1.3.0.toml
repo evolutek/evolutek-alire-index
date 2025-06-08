@@ -1,6 +1,6 @@
 name = "as5600"
 description = "as5600 driver for stm32f407"
-version = "1.1.0"
+version = "0.1.0"
 
 authors = ["Célian Aldehuelo-Mateos, Vladislav Kupin"]
 maintainers = ["Vladislav Kupin <vlad.kupin@proton.me>"]
@@ -10,9 +10,9 @@ website = "https://github.com/evolutek"
 tags = ["embedded", "stm32", "stellarhal", "evolutek"]
 
 [[depends-on]]
-gnat_arm_elf = "12.2.1"
+stm32f4xxm_devebox = "0.1.0"
 
 [origin]
-commit = "59bae7d7383ab9c093f68b70b0f05d7dfbb02464"
+commit = "d7b73cb1c0c22001dad95109313d3007a6fe0dba"
 url = "git+https://github.com/evolutek/stellardrive.git"
 subdir = "as5600"
