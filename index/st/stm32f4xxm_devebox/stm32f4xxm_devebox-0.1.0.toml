@@ -1,0 +1,25 @@
+name = "stm32f4xxm_devebox"
+description = "Support for the stm32f4XX_M board by DevEBox"
+version = "0.1.0"
+
+authors = ["AdaCore"]
+maintainers = ["Olivier Henley <olivier.henley@gmail.com>"]
+maintainers-logins = ["ohenley"]
+licenses = "MIT OR Apache-2.0 WITH LLVM-exception"
+website="https://github.com/GNAT-Academic-Program/stm32f4xxm_devebox"
+tags = ["embedded", "stm32", "stm32f4xxm", "devebox"]
+
+[configuration.values.cortex_m]
+core = "m4f"
+
+[configuration.values.stm32_hal]
+device = "stm32f407xx"
+
+[[depends-on]]
+cortex_m = "0.5.0"
+embedded_components = "0.2.0"
+stm32_hal = "0.1.0"
+
+[origin]
+commit = "8d1049d021d7eb04825bba2912bf9ae08f3e3a3d"
+url = "git+https://github.com/GNAT-Academic-Program/stm32f4xxm_devebox.git"
