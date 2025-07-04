@@ -11,6 +11,7 @@ tags = ["embedded", "stm32", "stellarhal", "evolutek"]
 
 [[depends-on]]
 gnat_arm_elf = ">=12.1.0"
+stm32g4_hal = "*"
 
 [origin]
 commit = "260b7a7f4971807a3b9d76e5073d28afe422e47f"
