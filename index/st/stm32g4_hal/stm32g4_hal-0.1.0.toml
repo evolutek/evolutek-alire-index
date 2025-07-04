@@ -36,5 +36,5 @@ cortex_m.core = "m4f"
 hal = { url="https://github.com/Fabien-Chouteau/hal.git", branch="release/0.4" }
 
 [origin]
-commit = "30ddf3b15679c81105749c39f9e245b52350252e"
+commit = "a9ca57ba130d95d4b58da34e224902f13a3ff4e2"
 url = "git+https://github.com/evolutek/stm32g4_hal.git"
