@@ -1,5 +1,12 @@
 # Evolutek Alire Index
 
+## How to use this Alire index
+
+Just add the Alire index to the your local indexes:
+```bash
+alr index --add="git+https://github.com/evolutek/evolutek-alire-index.git" --name="evolutek"
+```
+
 ## Maintenance Policy
 
 ### Before You Start
