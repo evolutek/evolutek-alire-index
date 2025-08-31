@@ -22,6 +22,6 @@ values = [
 gnat_arm_elf = ">=12"
 
 [origin]
-commit = "260b7a7f4971807a3b9d76e5073d28afe422e47f"
+commit = "585dd4ac80f5d9745e61bd1996267b6d09a0d87a"
 url = "git+https://github.com/evolutek/stellardrive.git"
 subdir = "uart"
