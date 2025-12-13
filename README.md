@@ -1,12 +1,5 @@
 # Evolutek Alire Index
 
-## How to use this Alire index
-
-Just add the Alire index to the your local indexes:
-```bash
-alr index --add="git+https://github.com/evolutek/evolutek-alire-index.git" --name="evolutek"
-```
-
 ## Maintenance Policy
 
 ### Before You Start
@@ -36,7 +29,7 @@ commit = "a1b2c3d4e5f6..."  # Full commit hash
    - `subdir`: If the crate is in a subdirectory
    - Binary release URLs (for prebuilt artifacts)
 
-### Using the Index in Projects
+## Using the Index in Projects
 Add this index to your Alire workspace with:
 
 ```shell
