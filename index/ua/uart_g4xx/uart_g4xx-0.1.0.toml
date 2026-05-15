@@ -14,6 +14,6 @@ gnat_arm_elf = ">=12"
 stm32g4_hal = ">=0.1.0"
 
 [origin]
-commit = "376f115eb52e3e170bc999dbd5f2437cb8da91f5"
+commit = "01917d3fef34c236353f8eaf0126bb61aa632807"
 url = "git+https://github.com/evolutek/stellardrive.git"
 subdir = "uart/uart_g4xx"
