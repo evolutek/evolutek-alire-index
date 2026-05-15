@@ -1,5 +1,5 @@
-name = "uart"
-description = "UART driver"
+name = "uart_g4xx"
+description = "UART driver for STM32G4"
 version = "0.1.0"
 
 authors = ["Célian Aldehuelo-Mateos, Vladislav Kupin"]
@@ -7,21 +7,13 @@ maintainers = ["Vladislav Kupin <vlad.kupin@proton.me>"]
 maintainers-logins = ["axterd"]
 licenses = "BSD-3-Clause"
 website = "https://github.com/evolutek"
-tags = ["embedded", "stm32", "stellarhal", "evolutek"]
-
-[configuration.variables]
-[configuration.variables.device]
-default = "stm32_f4"
-type = "Enum"
-values = [
-    "stm32_f4",
-    "stm32_g4",
-]
+tags = ["embedded", "stm32", "stm32g4", "stellarhal", "evolutek"]
 
 [[depends-on]]
 gnat_arm_elf = ">=12"
+stm32g4_hal = ">=0.1.0"
 
 [origin]
-commit = "585dd4ac80f5d9745e61bd1996267b6d09a0d87a"
+commit = "376f115eb52e3e170bc999dbd5f2437cb8da91f5"
 url = "git+https://github.com/evolutek/stellardrive.git"
-subdir = "uart"
+subdir = "uart/uart_g4xx"

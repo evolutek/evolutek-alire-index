@@ -1,0 +1,19 @@
+name = "uart_f4xx"
+description = "UART driver for STM32F4"
+version = "0.1.0"
+
+authors = ["Célian Aldehuelo-Mateos, Vladislav Kupin"]
+maintainers = ["Vladislav Kupin <vlad.kupin@proton.me>"]
+maintainers-logins = ["axterd"]
+licenses = "BSD-3-Clause"
+website = "https://github.com/evolutek"
+tags = ["embedded", "stm32", "stm32f4", "stellarhal", "evolutek"]
+
+[[depends-on]]
+gnat_arm_elf = ">=12"
+stm32f4xxm_devebox = "0.1.0"
+
+[origin]
+commit = "376f115eb52e3e170bc999dbd5f2437cb8da91f5"
+url = "git+https://github.com/evolutek/stellardrive.git"
+subdir = "uart/uart_f4xx"
