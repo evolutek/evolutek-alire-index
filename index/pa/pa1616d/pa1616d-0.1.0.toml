@@ -10,10 +10,9 @@ website = "https://github.com/evolutek"
 tags = ["embaded", "stm32", "stellahal", "evolutek"]
 
 [[depends-on]]
-gnat_arm_elf = ">=12"
-uart = "0.1.0"
+hal = "0.4.0"
 
 [origin]
-commit = "01917d3fef34c236353f8eaf0126bb61aa632807"
+commit = "3fc4d126e675362aa303aebb82610cf0c2dd19f0"
 url = "git+https://github.com/evolutek/stellardrive.git"
 subdir = "pa1616d"

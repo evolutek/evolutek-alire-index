@@ -1,0 +1,14 @@
+name = "hal"
+description = "Abstract hardware abstraction layer for Ada embedded targets"
+version = "0.4.0"
+
+authors = ["Fabien Chouteau"]
+maintainers = ["Fabien Chouteau <fabien@chouteau.net>"]
+maintainers-logins = ["Fabien-Chouteau"]
+licenses = "BSD-3-Clause"
+website = "https://github.com/Fabien-Chouteau/hal"
+tags = ["embedded", "hal", "abstract"]
+
+[origin]
+commit = "730aa937d954f030cd54cbb2b1457884a75f5e73"
+url = "git+https://github.com/Fabien-Chouteau/hal.git"
