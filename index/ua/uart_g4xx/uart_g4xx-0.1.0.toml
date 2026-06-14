@@ -12,8 +12,9 @@ tags = ["embedded", "stm32", "stm32g4", "stellarhal", "evolutek"]
 [[depends-on]]
 gnat_arm_elf = ">=12"
 stm32g4_hal = ">=0.1.0"
+uart = "0.1.0"
 
 [origin]
-commit = "01917d3fef34c236353f8eaf0126bb61aa632807"
+commit = "2470a60ebad3772d31325bf4697bae893b273f5a"
 url = "git+https://github.com/evolutek/stellardrive.git"
 subdir = "uart/uart_g4xx"
